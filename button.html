@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Link to bootstrap framework files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+       
+        <form action="sample.html">
+            <div class="form-group form-inline mt-3">
+                <label for="firstName" class="mr-5">First Name: </label>
+                <input class="form-control" type="text" name="firstName" id="firstName">
+
+
+            </div>
+           
+            <a class="btn btn-primary" href="navbar.html" role="button">Navbar Example</a>
+
+            <!-- submits the data to the server and reloads or goes to a new page -->
+            <button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>       
+
+            <!-- Relies on custom javascript to DO something -->
+            <input  type="button" value="Clickable Button">    
+            
+             <!-- submits the data to the server and reloads or goes to a new page -->
+            <input type="submit" value="Submit">
+
+            <!-- Clears out the data users entered in the form fields -->
+            <input  type="reset" value="Reset">
+        </form>
+
+    </div>
+    
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
